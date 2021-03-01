@@ -19,11 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "MParticle-AppsFlyer-Kit",
-            dependencies: ["mParticle-Apple-SDK", "AppsFlyerLib"],
-            publicHeadersPath: "Sources/MParticle-AppsFlyer-Kit"
-        ),
-        .testTarget(
-            name: "MParticle-AppsFlyer-Kit-Test",
-            dependencies: ["MParticle-AppsFlyer-Kit"]),
+            dependencies: ["mParticle-Apple-SDK", "AppsFlyerLib"]
+        )
     ]
 )
