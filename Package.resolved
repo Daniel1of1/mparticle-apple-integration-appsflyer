@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppsFlyerLib",
+        "repositoryURL": "https://github.com/AppsFlyerSDK/AppsFlyerFramework",
+        "state": {
+          "branch": null,
+          "revision": "25c96a58c7aff851721880f5999fba2d79445554",
+          "version": "6.2.5"
+        }
+      },
+      {
+        "package": "mParticle-Apple-SDK",
+        "repositoryURL": "https://github.com/mParticle/mparticle-apple-sdk",
+        "state": {
+          "branch": null,
+          "revision": "c492734cdd0fa1aff359ccb4a1f8cb685e977ca2",
+          "version": "8.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

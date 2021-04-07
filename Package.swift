@@ -25,7 +25,8 @@ let package = Package(
             dependencies: [
               .byName(name: "mParticle-Apple-SDK"),
               .product(name: "AppsFlyerLib", package: "AppsFlyerLib"),
-            ]
+            ],
+            publicHeadersPath: "Sources/mParticle-AppsFlyer"
         )
     ]
 )
